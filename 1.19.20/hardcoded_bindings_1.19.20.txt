@@ -575,8 +575,6 @@
 #feed_texture
 #feed_texture_source
 #feedback_visible
-#ff1e1e1f
-#fff0ebcc
 #field_of_view
 #field_of_view_enabled
 #field_of_view_slider_label
@@ -585,7 +583,6 @@
 #file_size_progress
 #file_storage_location_toggle_label
 #filled_star_texture
-#filter_
 #filter_option_visible_
 #filter_screen_visible
 #filter_selected_
@@ -1191,7 +1188,6 @@
 #members_page_index_text
 #members_prevButton_visible
 #members_visible
-#mentions_
 #mentions_color_dropdown_label
 #mentions_toggle_color
 #menu_realms_feed_enabled
