@@ -69,7 +69,6 @@
 #arrow_left_enabled
 #arrow_right_enabled
 #asking_to_buy_visible
-#audible_keymapping_name
 #authentication_message
 #author_gamertag
 #author_platform_tag
@@ -217,6 +216,9 @@
 #cancel_not_visible
 #cancel_visible
 #caption_text_box
+#cast_character_options_collection_index
+#cast_enabled_select
+#cast_preview_skin
 #category_column_collection_index
 #category_mashups_icon_visible
 #category_row_collection_index
@@ -583,9 +585,7 @@
 #file_size_progress
 #file_storage_location_toggle_label
 #filled_star_texture
-#filter_option_visible_
 #filter_screen_visible
-#filter_selected_
 #filter_selected_count
 #filter_selected_packtype
 #filtered_light_multiplier
@@ -645,7 +645,6 @@
 #game_online
 #game_type_local
 #game_unavailable
-#gamepad_grid_dimension
 #gamepad_helper_a_visible
 #gamepad_helper_ls_visible
 #gamepad_helper_rs_visible
@@ -688,7 +687,9 @@
 #graphics_upscaling_enabled
 #grey_banner_visible
 #grid_number_size
-#gui_scale_visible
+#gui_scale_disabled_option_tooltip_text
+#gui_scale_disabled_option_tooltip_visible
+#gui_scale_disabled_option_visible
 #has_armor_and_saddle_slot
 #has_armor_slot
 #has_carpet_and_saddle_slot
@@ -718,7 +719,6 @@
 #hero_featured_pack_icon_section_visible
 #hero_rtx_label_visible
 #hide_invites
-#hint_toggles_enabled
 #host_main_button_focus_override_down
 #host_main_button_focus_override_up
 #host_main_grid_dimension
@@ -741,6 +741,7 @@
 #hover_items_id
 #hover_items_id_aux
 #hover_items_stack_size
+#hover_items_user_data
 #hover_slice
 #hover_text
 #how_to_play_gamepad_helper_label_text
@@ -748,6 +749,12 @@
 #hyperlink
 #hyperlink_prompt_text
 #icon_file_system
+#icon_overlay_font_scale_factor
+#icon_overlay_font_type
+#icon_overlay_height
+#icon_overlay_image_text
+#icon_overlay_text_color
+#icon_overlay_texture_filepath
 #icon_zip
 #im_reader_button_visible
 #image_frame_visible
@@ -758,6 +765,7 @@
 #imminent_harm
 #immutable_world
 #immutable_world_enabled
+#in_cast_modal
 #in_realms_plus_button_visible
 #in_use_item_grid_size
 #in_use_texture
@@ -849,7 +857,6 @@
 #is_claim_all_enabled
 #is_claim_all_visible
 #is_classic_skin_current_offer_loading
-#is_classic_skin_pack_loading
 #is_classic_skin_profile_selected
 #is_clone_mode
 #is_coin_visible
@@ -918,7 +925,6 @@
 #is_offer_purchasable_and_not_free
 #is_offer_unlocked
 #is_on_wishlist
-#is_owned_pack_section_visible
 #is_photo_page
 #is_piece_being_previewed
 #is_piece_equipped
@@ -932,11 +938,9 @@
 #is_preset_loading_visible
 #is_preset_visible
 #is_purchasable_item
-#is_purchasable_pack_section_visible
 #is_purchase_button_padding_visible
 #is_realm_expired
 #is_realms_offer
-#is_realms_plus_pack_section_visible
 #is_recent_grid_ready
 #is_redeemable
 #is_rename_mode
@@ -955,7 +959,6 @@
 #is_right_info_main_featured_panel_visible
 #is_right_info_piece_offer_panel_visible
 #is_right_panel_classic_custom_visible
-#is_right_panel_classic_skin_pack_title_visible
 #is_right_panel_classic_skin_pack_visible
 #is_right_tab_loom
 #is_right_tab_stonecutter
@@ -969,12 +972,9 @@
 #is_size_equip_visible
 #is_skin_equip_visible
 #is_skin_equipped
-#is_skin_index_visible
 #is_skin_locked
 #is_skin_not_equippable
 #is_skin_owned
-#is_skin_pack_screen_search_loading
-#is_skin_pack_section_visible
 #is_skin_realms_plus
 #is_skin_retrieval_finished
 #is_skin_selected
@@ -1056,7 +1056,6 @@
 #keyboard_show_full_keyboard_options
 #keyboard_show_full_keyboard_options_enabled
 #keyboard_show_standard_keyboard_options
-#keymapping_name
 #kick_button_visible
 #lan_grid_visible
 #lan_network_world_item_grid_dimension
@@ -1268,6 +1267,7 @@
 #non-consensual_intimate_imagery
 #none_option_text
 #not_hide_chat
+#not_logged_in
 #notification_duration_radio_TenSec
 #notification_duration_radio_ThirtySec
 #notification_duration_radio_ThreeSec
@@ -1321,7 +1321,6 @@
 #output_item_id
 #p_button_visible
 #pack_additional_skin_count_text
-#pack_dimensions
 #pack_header_description
 #pack_header_size
 #pack_header_size_visible
@@ -1337,7 +1336,6 @@
 #pack_path
 #pack_progress_visible
 #pack_texture
-#pack_title
 #pack_type
 #pack_version
 #packs_collection_index
@@ -1482,7 +1480,6 @@
 #port_text_box
 #port_text_box_content
 #port_tooltip_hover_label
-#pre_process_
 #premium_packs_grid_dimensions
 #premium_skins_grid_dimensions
 #prev_page_button_active
@@ -1570,11 +1567,14 @@
 #purchase_panel_visible_disallowed
 #purchase_with_currency_button_text
 #purchase_with_currency_disclaimer
-#purchase_with_currency_disclaimer_visible
 #pvp
 #pvp_damage
 #pvp_damage_enabled
 #pvp_enabled
+#qr_body_text
+#qr_panel_visible
+#qr_texture
+#qr_title_text
 #quitting_early
 #random_tick_speed
 #random_tick_speed_enabled
@@ -1645,7 +1645,6 @@
 #realms_notification_visible
 #realms_pack_items
 #realms_plus_list_visible
-#realms_plus_skin_pack_timer
 #realms_plus_template_factory_collection
 #realms_purchase_info
 #realms_sign_in_button_visible
@@ -1708,6 +1707,7 @@
 #response_buttons_visible
 #result_colors
 #result_patterns
+#retry_and_abort_visible
 #rift_controller_being_used
 #rift_controller_not_being_used
 #right_bumper
@@ -1878,12 +1878,14 @@
 #show_equip_button_helper
 #show_experimental_toggle
 #show_full
+#show_full_copy_coordinates_keys
 #show_full_left
 #show_full_right
 #show_home_button
 #show_hovered_selected_inventory_slot
 #show_hovered_slot
 #show_ip_address
+#show_item_pickup
 #show_level
 #show_memory_error
 #show_memory_warning
@@ -1915,6 +1917,7 @@
 #show_split
 #show_split_left
 #show_split_right
+#show_standard_copy_coordinates_keys
 #show_texel_aa
 #show_vr_msaa
 #show_webview
@@ -2287,6 +2290,9 @@
 #vsync_on
 #warning_button2_visible
 #warning_content_visible
+#waterlog_blocks_toggle
+#waterlog_blocks_toggle_off
+#waterlog_blocks_toggle_on
 #weather_cycle
 #weather_cycle_enabled
 #webview_update
